@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local dataset and generated face database
+faces/
+face_database/
+*.npz
+
+# Local model files
+*.onnx
+*.pth
+*.pt
+*.keras
+*.h5
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
